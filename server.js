@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 
 // Endpoint to get a list of users
 app.get("/getUsers", function (req, res) {
-    fs.readFile(__dirname + "/" + "users.json", "utf8", function (err, data) {
+    fs.readFile(__dirname + "/" + "materials.json", "utf8", function (err, data) {
         // console.log(data);
         // res.end(data); // you can also use res.send()
         if (err) {

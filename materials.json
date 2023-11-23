@@ -1,0 +1,98 @@
+{
+    "materials": [
+        {
+            "category": "abjad",
+            "list_item": [
+                {
+                    "id": 1,
+                    "name": "A",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 2,
+                    "name": "B",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 3,
+                    "name": "C",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 4,
+                    "name": "D",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 5,
+                    "name": "E",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 6,
+                    "name": "F",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 7,
+                    "name": "G",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 8,
+                    "name": "H",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 9,
+                    "name": "I",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 10,
+                    "name": "J",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 11,
+                    "name": "K",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 12,
+                    "name": "L",
+                    "link": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "category": "angka",
+            "list_items": [
+                {
+                    "id": 1,
+                    "name": "1",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 2,
+                    "name": "2",
+                    "link": "",
+                    "desc": ""
+                }
+            ]
+        }
+    ]
+}
