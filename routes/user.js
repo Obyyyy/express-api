@@ -30,15 +30,27 @@ router.post("/register", async (req, res) => {
         const user = { name: req.body.name, email: req.body.email, password: hashedPassword };
         const id = nanoid(16);
 
-        const query = "INSERT INTO users (id_user, name, email, password, created_at, updated_at) VALUES (?, ?, ?, ?, NOW(), NOW())";
-        connection.query(query, [id, user.name, user.email, user.password], (err, results) => {
+        connection.query("SELECT * FROM users WHERE email = ?", [user.email], (err, results) => {
             if (err) {
                 console.error(err);
                 res.status(500).json({ error: true, message: "Internal Server Error" });
                 return;
             }
+            if (results.length > 0) {
+                res.status(400).json({ error: true, message: "Email already Exist" });
+                return;
+            } else {
+                const query = "INSERT INTO users (id_user, name, email, password, created_at, updated_at) VALUES (?, ?, ?, ?, NOW(), NOW())";
+                connection.query(query, [id, user.name, user.email, user.password], (err, results) => {
+                    if (err) {
+                        console.error(err);
+                        res.status(500).json({ error: true, message: "Internal Server Error" });
+                        return;
+                    }
 
-            res.status(201).json({ error: false, message: "User Created" });
+                    res.status(201).json({ error: false, message: "User Created" });
+                });
+            }
         });
     } catch (error) {
         console.error(error);
@@ -71,7 +83,7 @@ router.post("/login", async (req, res) => {
             // Periksa kecocokan password
             if (await bcrypt.compare(password, user.password)) {
                 // Buat token JWT
-                const token = jwt.sign({ userId: user.id_user, name: user.name }, process.env.JWT_SECRET, { expiresIn: "1h" });
+                const token = jwt.sign({ userId: user.id_user, name: user.name }, process.env.JWT_SECRET);
                 // res.json({ token: token });
                 return res.status(200).json({
                     error: false,
@@ -89,6 +101,47 @@ router.post("/login", async (req, res) => {
             console.error(bcryptError);
             return res.status(500).json({ error: true, message: "Internal Server Error" });
         }
+    });
+});
+
+// router.delete("/logout", (req, res) => {});
+
+router.post("/post/level", (req, res) => {
+    const { userId, level } = req.body;
+
+    if (!userId || !level) {
+        return res.status(400).json({ error: true, message: "User ID and level are required" });
+    }
+
+    const query = "INSERT INTO completed_level (id_user, level_id, completed_at) VALUES (?, ?, NOW())";
+    connection.query(query, [userId, level], (err, results) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: true, message: "Internal Server Error" });
+        }
+
+        return res.status(201).json({ error: false, message: "Level Created" });
+    });
+});
+
+router.get("/get/level", (req, res) => {
+    const { userId } = req.body;
+
+    if (!userId) {
+        return res.status(400).json({ error: true, message: "User ID is required" });
+    }
+
+    const query = "SELECT MAX(level_id) FROM completed_level WHERE id_user = ?";
+    connection.query(query, [userId], (err, results) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: true, message: "Internal Server Error" });
+        }
+        const level = results[0]["MAX(level_id)"];
+        return res.status(200).json({
+            userId: userId,
+            level: level,
+        });
     });
 });
 

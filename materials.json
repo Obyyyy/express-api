@@ -74,21 +74,68 @@
                     "name": "L",
                     "link": "",
                     "desc": ""
+                },
+                {
+                    "id": 13,
+                    "name": "M",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 14,
+                    "name": "N",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 15,
+                    "name": "O",
+                    "link": "",
+                    "desc": ""
                 }
             ]
         },
         {
-            "category": "angka",
+            "category": "kata_tanya",
             "list_items": [
                 {
                     "id": 1,
-                    "name": "1",
+                    "name": "Apa",
                     "link": "",
                     "desc": ""
                 },
                 {
                     "id": 2,
-                    "name": "2",
+                    "name": "Di mana",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Kapan",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Kenapa",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Siapa",
+                    "link": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "category": "kata_kerja",
+            "list_item": [
+                {
+                    "id": 1,
+                    "name": "Baca",
                     "link": "",
                     "desc": ""
                 }

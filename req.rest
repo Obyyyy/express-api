@@ -10,9 +10,6 @@ Content-Type: application/json
 ###
 GET http://localhost:8080/get/dict
 
-###
-
-GET http://localhost:8080/users
 
 ###
 POST http://localhost:8080/login
@@ -32,8 +29,8 @@ POST http://localhost:8080/register
 Content-Type: application/json
 
 {
-    "name": "Zeta",
-    "email": "zeta@gmail.com",
+    "name": "Ollie",
+    "email": "ollie@gmail.com",
     "password": "123456"
 }
 
@@ -42,6 +39,23 @@ POST http://localhost:8080/login
 Content-Type: application/json
 
 {
-    "email": "zeta@gmail.com",
+    "email": "risu@gmail.com",
     "password": "123456"
+}
+
+###
+POST http://localhost:8080/post/level
+Content-Type: application/json
+
+{
+    "userId": "Etf11PosiitbvfhH",
+    "level": "3"
+}
+
+###
+GET http://localhost:8080/get/level
+Content-Type: application/json
+
+{
+    "userId": "Etf11PosiitbvfhH"
 }

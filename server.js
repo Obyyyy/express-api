@@ -1,13 +1,11 @@
 const express = require("express");
 const app = express();
-const jwt = require("jsonwebtoken");
 
 // Routes //
 const dataRouter = require("./routes/data");
 const userRouter = require("./routes/user");
 
 app.use(express.json());
-
 app.use("/get", dataRouter);
 app.use("/", userRouter);
 
