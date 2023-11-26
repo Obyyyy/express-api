@@ -8,7 +8,7 @@ const userRouter = require("./routes/user");
 
 app.use(express.json());
 
-app.use("/", dataRouter);
+app.use("/get", dataRouter);
 app.use("/", userRouter);
 
 // Listen to the App Engine-specified port, or 8080 otherwise

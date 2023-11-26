@@ -1,7 +1,11 @@
+require("dotenv").config();
+
 const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcrypt");
+const { nanoid } = require("nanoid");
 const mysql = require("mysql");
+const jwt = require("jsonwebtoken");
 
 const connection = mysql.createConnection({
     host: "localhost",
@@ -24,9 +28,10 @@ router.post("/register", async (req, res) => {
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
 
         const user = { name: req.body.name, email: req.body.email, password: hashedPassword };
+        const id = nanoid(16);
 
-        const query = "INSERT INTO users (name, email, password) VALUES (?, ?, ?)";
-        connection.query(query, [user.name, user.email, user.password], (err, results) => {
+        const query = "INSERT INTO users (id_user, name, email, password, created_at, updated_at) VALUES (?, ?, ?, ?, NOW(), NOW())";
+        connection.query(query, [id, user.name, user.email, user.password], (err, results) => {
             if (err) {
                 console.error(err);
                 res.status(500).json({ error: true, message: "Internal Server Error" });
@@ -65,12 +70,16 @@ router.post("/login", async (req, res) => {
         try {
             // Periksa kecocokan password
             if (await bcrypt.compare(password, user.password)) {
+                // Buat token JWT
+                const token = jwt.sign({ userId: user.id_user, name: user.name }, process.env.JWT_SECRET, { expiresIn: "1h" });
+                // res.json({ token: token });
                 return res.status(200).json({
                     error: false,
                     message: "Login successful",
                     loginResult: {
                         userId: user.id_user,
                         name: user.name,
+                        token: token,
                     },
                 });
             } else {

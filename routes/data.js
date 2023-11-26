@@ -3,7 +3,7 @@ const fs = require("fs");
 const router = express.Router();
 const path = require("path");
 
-router.get("/getDict", function (req, res) {
+router.get("/dict", function (req, res) {
     const filePath = path.join(__dirname, "..", "materials.json");
     fs.readFile(filePath, "utf8", function (err, data) {
         // console.log(data);
