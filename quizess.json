@@ -1,0 +1,56 @@
+{
+    "quizess": [
+        {
+            "level": 1,
+            "Level_name": "Level 1",
+            "materials": [
+                {
+                    "name": "Sayang",
+                    "link": ""
+                },
+                {
+                    "name": "Sayang",
+                    "link": ""
+                }
+            ],
+            "multiple_choices": [
+                {
+                    "quiz_id": "1",
+                    "question": "Isyarat apakah ini?",
+                    "link": "",
+                    "options": ["Aku", "Cinta", "Sayang", "Sabar"],
+                    "answer": 2
+                },
+                {
+                    "quiz_id": "2",
+                    "question": "Isyarat apakah ini?",
+                    "link": "",
+                    "options": ["New York", "Washington DC", "California", "Texas"],
+                    "answer": 2
+                }
+            ],
+            "essay": [
+                {
+                    "quiz_id": "1",
+                    "question": "Isyarat apakah ini?",
+                    "link": "",
+                    "answer": "Sayang"
+                },
+                {
+                    "quiz_id": "2",
+                    "question": "Isyarat apakah ini?",
+                    "link": "",
+                    "answer": "Sayang"
+                }
+            ],
+            "practice": [
+                {
+                    "quiz_id": "1",
+                    "question": "Peragakan gerakan ini?",
+                    "link": "",
+                    "answer": "Sayang"
+                }
+            ]
+        }
+    ]
+}

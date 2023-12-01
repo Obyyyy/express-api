@@ -112,19 +112,30 @@ router.post("/post/level", (req, res) => {
     if (!userId || !level) {
         return res.status(400).json({ error: true, message: "User ID and level are required" });
     }
-
-    const query = "INSERT INTO completed_level (id_user, level_id, completed_at) VALUES (?, ?, NOW())";
-    connection.query(query, [userId, level], (err, results) => {
+    connection.query("SELECT * FROM completed_level WHERE id_user = ? AND level_id = ?", [userId, level], (err, results) => {
         if (err) {
             console.error(err);
-            return res.status(500).json({ error: true, message: "Internal Server Error" });
+            res.status(500).json({ error: true, message: "Internal Server Error" });
+            return;
         }
+        if (results.length > 0) {
+            res.status(400).json({ error: true, message: "User already completed the Level" });
+            return;
+        } else {
+            const query = "INSERT INTO completed_level (id_user, level_id, completed_at) VALUES (?, ?, NOW())";
+            connection.query(query, [userId, level], (err, results) => {
+                if (err) {
+                    console.error(err);
+                    return res.status(500).json({ error: true, message: "Internal Server Error" });
+                }
 
-        return res.status(201).json({ error: false, message: "Level Created" });
+                return res.status(201).json({ error: false, message: "Level Completed" });
+            });
+        }
     });
 });
 
-router.get("/get/level", (req, res) => {
+router.post("/get/level", (req, res) => {
     const { userId } = req.body;
 
     if (!userId) {
