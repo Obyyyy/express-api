@@ -1,38 +1,13 @@
 const express = require("express");
 const app = express();
-const fs = require("fs");
 
-app.get("/", (req, res) => {
-    res.send("Hello from App Engine!");
-});
+// Routes //
+const dataRouter = require("./routes/data");
+const userRouter = require("./routes/user");
 
-// Endpoint to get a list of users
-app.get("/getUsers", function (req, res) {
-    fs.readFile(__dirname + "/" + "materials.json", "utf8", function (err, data) {
-        // console.log(data);
-        // res.end(data); // you can also use res.send()
-        if (err) {
-            console.error(err);
-            res.status(500).json({ error: "Internal Server Error" });
-            return;
-        }
-        let jsonData;
-        try {
-            jsonData = JSON.parse(data);
-        } catch (parseError) {
-            console.error(parseError);
-            res.status(500).json({ error: "Error parsing JSON" });
-            return;
-        }
-        res.json(jsonData);
-    });
-});
-
-// const server = app.listen(8080, function () {
-//     const host = server.address().address;
-//     const port = server.address().port;
-//     console.log("REST API demo app listening at http://%s:%s", host, port);
-// });
+app.use(express.json());
+app.use("/get", dataRouter);
+app.use("/", userRouter);
 
 // Listen to the App Engine-specified port, or 8080 otherwise
 const PORT = process.env.PORT || 8080;
