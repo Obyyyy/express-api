@@ -158,53 +158,21 @@
                     "name": "Z",
                     "link": "",
                     "desc": ""
-                },
-
                 }
-
             ]
         },
         {
-            "category": "kata_tanya",
-            "list_items": [
+            "category": "angka",
+            "list_item": [
                 {
                     "id": 1,
-                    "name": "Apa",
+                    "name": "1",
                     "link": "",
                     "desc": ""
                 },
                 {
                     "id": 2,
-                    "name": "Di mana",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 3,
-                    "name": "Kapan",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 4,
-                    "name": "Kenapa",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 5,
-                    "name": "Siapa",
-                    "link": "",
-                    "desc": ""
-                }
-            ]
-        },
-        {
-            "category": "kata_kerja",
-            "list_item": [
-                {
-                    "id": 1,
-                    "name": "Baca",
+                    "name": "2",
                     "link": "",
                     "desc": ""
                 },
@@ -213,7 +181,8 @@
                     "name": "3",
                     "link": "",
                     "desc": ""
-                },{
+                },
+                {
                     "id": 4,
                     "name": "4",
                     "link": "",
@@ -254,7 +223,136 @@
                     "name": "0",
                     "link": "",
                     "desc": ""
+                }
+            ]
+        },
+        {
+            "category": "kata_tanya",
+            "list_items": [
+                {
+                    "id": 1,
+                    "name": "Apa",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-tanya/Apa.mp4",
+                    "desc": ""
                 },
+                {
+                    "id": 2,
+                    "name": "Di mana",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-tanya/Dimana.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Kapan",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-tanya/Kapan.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Kenapa",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-tanya/Kenapa.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Siapa",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-tanya/Siapa.mp4",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "category": "kata_ganti_orang",
+            "list_items": [
+                {
+                    "id": 1,
+                    "name": "Aku",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Aku.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Ayah",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Ayah.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Dia",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Dia.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Kakak",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Kamu",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kamu.mp4",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "category": "kata_kerja",
+            "list_item": [
+                {
+                    "id": 1,
+                    "name": "Bantu",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Bantu.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Bercanda",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Ingin",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Jalan-jalan",
+                    "link": "",
+                    "desc": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Kerja",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Kerja.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Lihat",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Lihat.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Main",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Main.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Minta",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Minta.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Minum",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Minum.mp4",
+                    "desc": ""
+                }
             ]
         }
     ]
