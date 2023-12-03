@@ -285,7 +285,7 @@
                 {
                     "id": 4,
                     "name": "Kakak",
-                    "link": "",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kakak.MOV",
                     "desc": ""
                 },
                 {
@@ -308,19 +308,19 @@
                 {
                     "id": 2,
                     "name": "Bercanda",
-                    "link": "",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Bercanda.MOV",
                     "desc": ""
                 },
                 {
                     "id": 3,
                     "name": "Ingin",
-                    "link": "",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Ingin.MOV",
                     "desc": ""
                 },
                 {
                     "id": 4,
                     "name": "Jalan-jalan",
-                    "link": "",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Jalan-jalan.MOV",
                     "desc": ""
                 },
                 {
@@ -351,6 +351,196 @@
                     "id": 9,
                     "name": "Minum",
                     "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Minum.mp4",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "category": "kata_sifat",
+            "list_item": [
+                {
+                    "id": 1,
+                    "name": "Baik",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Baik.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Benci",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Benci.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Cinta",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Cinta.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Keren",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Keren.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Malas",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Malas.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Malu",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Malu.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Marah",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Marah.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Sabar",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Sabar.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Salah",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Salah.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Sayang",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Sayang.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 11,
+                    "name": "Sedih",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Sedih.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 12,
+                    "name": "Semangat",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Semangat.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 13,
+                    "name": "Senang",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Senang.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 14,
+                    "name": "Suka",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Suka.mp4",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "category": "kata_sehari-hari",
+            "list_item": [
+                {
+                    "id": 1,
+                    "name": "Ada",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Ada.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 2,
+                    "name": "Bisa",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Bisa.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 3,
+                    "name": "Halo",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Halo.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 4,
+                    "name": "Ini",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Ini.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 5,
+                    "name": "Jam",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jam.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 6,
+                    "name": "Jangan",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jangan.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 7,
+                    "name": "Keadaan",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Keadaan.MOV",
+                    "desc": ""
+                },
+                {
+                    "id": 8,
+                    "name": "Maaf",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Maaf.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 9,
+                    "name": "Malam",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Malam.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 10,
+                    "name": "Pagi",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Pagi.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 11,
+                    "name": "Rumah",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Rumah.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 12,
+                    "name": "Sakit",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sakit.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 13,
+                    "name": "Sama sama",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sama%20sama.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 14,
+                    "name": "Sekolah",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sekolah.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 15,
+                    "name": "Siang",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Siang.mp4",
+                    "desc": ""
+                },
+                {
+                    "id": 16,
+                    "name": "Terima kasih",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Terima%20kasih.mp4",
                     "desc": ""
                 }
             ]
