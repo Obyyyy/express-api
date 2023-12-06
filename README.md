@@ -8,10 +8,10 @@ This repository contains the process of developing Restful API as a complementar
 API Documentation: [Here](https://dune-chimpanzee-a81.notion.site/API-Documentation-fa082f00b7114db8a086a498999c507f)
 
 
-# Another Part Github
+## Another Part Github
 
-## Mobile Development 
+### Mobile Development 
 https://github.com/MuhammadAsandyPutra/Signify_CH2_PS093/tree/master
 
-## Machine Learning
+### Machine Learning
 https://github.com/nizma123/Signify-ML
