@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-// Routes //
+// Routes to handle requests
 const dataRouter = require("./routes/data");
 const userRouter = require("./routes/user");
 

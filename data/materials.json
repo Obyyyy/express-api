@@ -162,71 +162,6 @@
             ]
         },
         {
-            "category": "angka",
-            "list_item": [
-                {
-                    "id": 1,
-                    "name": "1",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 2,
-                    "name": "2",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 3,
-                    "name": "3",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 4,
-                    "name": "4",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 5,
-                    "name": "5",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 6,
-                    "name": "6",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 7,
-                    "name": "7",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 8,
-                    "name": "8",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 9,
-                    "name": "9",
-                    "link": "",
-                    "desc": ""
-                },
-                {
-                    "id": 0,
-                    "name": "0",
-                    "link": "",
-                    "desc": ""
-                }
-            ]
-        },
-        {
             "category": "kata_tanya",
             "list_items": [
                 {
@@ -285,7 +220,7 @@
                 {
                     "id": 4,
                     "name": "Kakak",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kakak.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kakak.mp4",
                     "desc": ""
                 },
                 {
@@ -308,19 +243,19 @@
                 {
                     "id": 2,
                     "name": "Bercanda",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Bercanda.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Bercanda.mp4",
                     "desc": ""
                 },
                 {
                     "id": 3,
                     "name": "Ingin",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Ingin.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Ingin.mp4",
                     "desc": ""
                 },
                 {
                     "id": 4,
                     "name": "Jalan-jalan",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Jalan-jalan.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-kerja/Jalan-jalan.mp4",
                     "desc": ""
                 },
                 {
@@ -367,7 +302,7 @@
                 {
                     "id": 2,
                     "name": "Benci",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Benci.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Benci.mp4",
                     "desc": ""
                 },
                 {
@@ -379,13 +314,13 @@
                 {
                     "id": 4,
                     "name": "Keren",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Keren.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Keren.mp4",
                     "desc": ""
                 },
                 {
                     "id": 5,
                     "name": "Malas",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Malas.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Malas.mp4",
                     "desc": ""
                 },
                 {
@@ -397,7 +332,7 @@
                 {
                     "id": 7,
                     "name": "Marah",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Marah.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Marah.mp4",
                     "desc": ""
                 },
                 {
@@ -409,19 +344,19 @@
                 {
                     "id": 9,
                     "name": "Salah",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Salah.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Salah.mp4",
                     "desc": ""
                 },
                 {
                     "id": 10,
                     "name": "Sayang",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Sayang.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Sayang.mp4",
                     "desc": ""
                 },
                 {
                     "id": 11,
                     "name": "Sedih",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Sedih.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Sedih.mp4",
                     "desc": ""
                 },
                 {
@@ -433,7 +368,7 @@
                 {
                     "id": 13,
                     "name": "Senang",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Senang.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sifat/Senang.mp4",
                     "desc": ""
                 },
                 {
@@ -450,13 +385,13 @@
                 {
                     "id": 1,
                     "name": "Ada",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Ada.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Ada.mp4",
                     "desc": ""
                 },
                 {
                     "id": 2,
                     "name": "Bisa",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Bisa.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Bisa.mp4",
                     "desc": ""
                 },
                 {
@@ -486,7 +421,7 @@
                 {
                     "id": 7,
                     "name": "Keadaan",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Keadaan.MOV",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Keadaan.mp4",
                     "desc": ""
                 },
                 {
@@ -521,7 +456,7 @@
                 },
                 {
                     "id": 13,
-                    "name": "Sama sama",
+                    "name": "Sama-sama",
                     "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sama%20sama.mp4",
                     "desc": ""
                 },

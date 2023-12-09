@@ -29,9 +29,9 @@ POST http://localhost:8000/register
 Content-Type: application/json
 
 {
-    "name": "Zeta",
-    "email": "zeta@gmail.com",
-    "password": "123456"
+    "name": "Obyy",
+    "email": "obyy@gmail.com",
+    "password": "obyy1234"
 }
 
 ###
@@ -73,3 +73,22 @@ Content-Type: application/json
 ###
 GET http://localhost:8000/get/quiz
 Content-Type: application/json
+
+###
+POST http://localhost:8000/get/profile
+Content-Type: application/json
+
+{
+    "userId": "fkFcXxPKQhgnp_TB"
+}
+
+###
+POST http://localhost:8000/post/profile
+Content-Type: application/json
+
+{
+    "userId": "fkFcXxPKQhgnp_TB",
+    "gender": 0,
+    "bday": "2003-02-07",
+    "phone": "081345990819"
+}

@@ -136,3 +136,40 @@ exports.getHighestLevel = (req, res) => {
         });
     });
 };
+
+exports.postProfile = (req, res) => {
+    const { userId, gender, bday, phone } = req.body;
+    if (!userId) {
+        return res.status(400).json({ error: true, message: "User ID is required" });
+    }
+    const query = "UPDATE users SET gender=?, bday=?, phone=?,  updated_at=NOW()  where id_user = ?";
+    connection.query(query, [gender, bday, phone, userId], (err, results) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: true, message: "Internal Server Error" });
+        }
+        return res.status(201).json({ error: false, message: "Profile Updated" });
+    });
+};
+
+exports.getProfile = (req, res) => {
+    const { userId } = req.body;
+    if (!userId) {
+        return res.status(400).json({ error: true, message: "User ID is required" });
+    }
+
+    const query = "SELECT *  FROM users WHERE id_user = ?";
+    connection.query(query, [userId], (err, results) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: true, message: "Internal Server Error" });
+        }
+        const profile = results[0];
+        return res.status(200).json({
+            userId: userId,
+            gender: profile.gender,
+            bday: profile.bday,
+            phone: profile.phone,
+        });
+    });
+};
