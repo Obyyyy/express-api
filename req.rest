@@ -8,8 +8,13 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8000/get/dict
+GET http://localhost:8000/get/quiz
 
+###
+GET http://localhost:8000/get/users
+
+###
+GET http://localhost:8000/get/completed-level
 
 ###
 POST http://localhost:8080/login

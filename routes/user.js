@@ -15,4 +15,8 @@ router.post("/post/profile", userController.postProfile);
 
 router.post("/get/profile", userController.getProfile);
 
+router.get("/get/users", userController.getAllUers);
+
+router.get("/get/completed-level", userController.getDataLevel);
+
 module.exports = router;

@@ -173,3 +173,25 @@ exports.getProfile = (req, res) => {
         });
     });
 };
+
+exports.getAllUers = (req, res) => {
+    const query = "SELECT *  FROM users";
+    connection.query(query, (err, results) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: true, message: "Internal Server Error" });
+        }
+        return res.status(200).json(results);
+    });
+};
+
+exports.getDataLevel = (req, res) => {
+    const query = "SELECT *  FROM completed_level";
+    connection.query(query, (err, results) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: true, message: "Internal Server Error" });
+        }
+        return res.status(200).json(results);
+    });
+};

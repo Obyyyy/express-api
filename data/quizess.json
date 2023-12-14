@@ -3,52 +3,303 @@
         {
             "level": 1,
             "Level_name": "Level 1",
-            "materials": [
+            "content": [
                 {
-                    "name": "Sayang",
-                    "link": ""
+                    "id": 1,
+                    "levelContent": 1,
+                    "type": "material",
+                    "name": "Aku",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Aku.mp4"
                 },
                 {
-                    "name": "Sayang",
-                    "link": ""
-                }
-            ],
-            "multiple_choices": [
-                {
-                    "quiz_id": "1",
-                    "question": "Isyarat apakah ini?",
-                    "link": "",
-                    "options": ["Aku", "Cinta", "Sayang", "Sabar"],
-                    "answer": 2
+                    "id": 2,
+                    "levelContent": 1,
+                    "type": "material",
+                    "name": "Kamu",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kamu.mp4"
                 },
                 {
-                    "quiz_id": "2",
-                    "question": "Isyarat apakah ini?",
-                    "link": "",
-                    "options": ["New York", "Washington DC", "California", "Texas"],
-                    "answer": 2
-                }
-            ],
-            "essay": [
-                {
-                    "quiz_id": "1",
-                    "question": "Isyarat apakah ini?",
-                    "link": "",
-                    "answer": "Sayang"
+                    "id": 3,
+                    "levelContent": 1,
+                    "type": "material",
+                    "name": "Dia",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Dia.mp4"
                 },
                 {
-                    "quiz_id": "2",
+                    "id": 4,
+                    "levelContent": 1,
+                    "type": "multiple_choices",
                     "question": "Isyarat apakah ini?",
-                    "link": "",
-                    "answer": "Sayang"
-                }
-            ],
-            "practice": [
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kamu.mp4",
+                    "options": ["Aku", "Ayah", "Kamu", "Dia"],
+                    "answer": "Kamu"
+                },
                 {
-                    "quiz_id": "1",
-                    "question": "Peragakan gerakan ini?",
-                    "link": "",
-                    "answer": "Sayang"
+                    "id": 5,
+                    "levelContent": 1,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Dia.mp4",
+                    "options": ["Kamu", "Dia", "Aku", "Ayah"],
+                    "answer": "Dia"
+                },
+                {
+                    "id": 6,
+                    "levelContent": 1,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Aku.mp4",
+                    "answer": "Aku"
+                },
+                {
+                    "id": 7,
+                    "levelContent": 1,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Dia.mp4",
+                    "answer": "Dia"
+                },
+                {
+                    "id": 8,
+                    "levelContent": 1,
+                    "type": "practice",
+                    "question": "Peragakan gerakan ini!",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kamu.mp4",
+                    "answer": "Kamu"
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "Level_name": "Level 2",
+            "content": [
+                {
+                    "id": 1,
+                    "levelContent": 2,
+                    "type": "material",
+                    "name": "Halo",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Halo.mp4"
+                },
+                {
+                    "id": 2,
+                    "levelContent": 2,
+                    "type": "material",
+                    "name": "Tolong",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Tolong.mp4"
+                },
+                {
+                    "id": 3,
+                    "levelContent": 2,
+                    "type": "material",
+                    "name": "Terima Kasih",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Terima%20kasih.mp4"
+                },
+                {
+                    "id": 4,
+                    "levelContent": 2,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Halo.mp4",
+                    "options": ["Halo", "Tolong", "Terima Kasih", "Permisi"],
+                    "answer": "Halo"
+                },
+                {
+                    "id": 5,
+                    "levelContent": 2,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Tolong.mp4",
+                    "answer": "Tolong"
+                },
+                {
+                    "id": 6,
+                    "levelContent": 2,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Aku.mp4",
+                    "options": ["Terima Kasih", "Halo", "Kamu", "Aku"],
+                    "answer": "Aku"
+                },
+                {
+                    "id": 7,
+                    "levelContent": 2,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Terima%20kasih.mp4",
+                    "options": ["Terima Kasih", "Halo", "Kamu", "Aku"],
+                    "answer": "Terima Kasih"
+                },
+                {
+                    "id": 8,
+                    "levelContent": 2,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Tolong.mp4",
+                    "answer": "Tolong"
+                },
+                {
+                    "id": 9,
+                    "levelContent": 2,
+                    "type": "practice",
+                    "question": "Peragakan gerakan ini!",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Terima%20kasih.mp4",
+                    "answer": "Terima Kasih"
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "Level_name": "Level 3",
+            "content": [
+                {
+                    "id": 1,
+                    "levelContent": 3,
+                    "type": "material",
+                    "name": "Sama-sama",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sama%20sama.mp4"
+                },
+                {
+                    "id": 2,
+                    "levelContent": 3,
+                    "type": "material",
+                    "name": "Maaf",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Maaf.mp4"
+                },
+                {
+                    "id": 3,
+                    "levelContent": 3,
+                    "type": "material",
+                    "name": "Jangan",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jangan.mp4"
+                },
+                {
+                    "id": 4,
+                    "levelContent": 3,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Maaf.mp4",
+                    "answer": "Maaf"
+                },
+                {
+                    "id": 5,
+                    "levelContent": 3,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sama%20sama.mp4",
+                    "options": ["Terima Kasih", "Sama-sama", "Maaf", "Jangan"],
+                    "answer": "Sama-sama"
+                },
+                {
+                    "id": 6,
+                    "levelContent": 3,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jangan.mp4",
+                    "answer": "Jangan"
+                },
+                {
+                    "id": 7,
+                    "levelContent": 3,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Terima%20kasih.mp4",
+                    "options": ["Terima Kasih", "Sama-sama", "Maaf", "Jangan"],
+                    "answer": "Terima Kasih"
+                },
+                {
+                    "id": 8,
+                    "levelContent": 3,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jangan.mp4",
+                    "options": ["Maaf", "Terima Kasih", "Jangan", "Sama-sama"],
+                    "answer": "Jangan"
+                },
+                {
+                    "id": 9,
+                    "levelContent": 3,
+                    "type": "practice",
+                    "question": "Peragakan gerakan ini!",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Maaf.mp4",
+                    "answer": "Maaf"
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "Level_name": "Level 4",
+            "content": [
+                {
+                    "id": 1,
+                    "levelContent": 4,
+                    "type": "material",
+                    "name": "Sama-sama",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sama%20sama.mp4"
+                },
+                {
+                    "id": 2,
+                    "levelContent": 4,
+                    "type": "material",
+                    "name": "Maaf",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Maaf.mp4"
+                },
+                {
+                    "id": 3,
+                    "levelContent": 4,
+                    "type": "material",
+                    "name": "Jangan",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jangan.mp4"
+                },
+                {
+                    "id": 4,
+                    "levelContent": 4,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Maaf.mp4",
+                    "answer": "Maaf"
+                },
+                {
+                    "id": 5,
+                    "levelContent": 4,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Sama%20sama.mp4",
+                    "options": ["Terima Kasih", "Sama-sama", "Maaf", "Jangan"],
+                    "answer": "Sama-sama"
+                },
+                {
+                    "id": 6,
+                    "levelContent": 4,
+                    "type": "essay",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jangan.mp4",
+                    "answer": "Jangan"
+                },
+                {
+                    "id": 7,
+                    "levelContent": 4,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Terima%20kasih.mp4",
+                    "options": ["Terima Kasih", "Sama-sama", "Maaf", "Jangan"],
+                    "answer": "Terima Kasih"
+                },
+                {
+                    "id": 8,
+                    "levelContent": 4,
+                    "type": "multiple_choices",
+                    "question": "Isyarat apakah ini?",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Jangan.mp4",
+                    "options": ["Maaf", "Terima Kasih", "Jangan", "Sama-sama"],
+                    "answer": "Jangan"
+                },
+                {
+                    "id": 9,
+                    "levelContent": 4,
+                    "type": "practice",
+                    "question": "Peragakan gerakan ini!",
+                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Maaf.mp4",
+                    "answer": "Maaf"
                 }
             ]
         }
