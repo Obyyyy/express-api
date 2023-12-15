@@ -2,6 +2,7 @@
     "materials": [
         {
             "category": "Alfabet",
+            "total": "26 kosakata",
             "list_items": [
                 {
                     "id": 1,
@@ -163,6 +164,7 @@
         },
         {
             "category": "Angka",
+            "total": "10 kosakata",
             "list_items": [
                 {
                     "id": 1,
@@ -228,6 +230,7 @@
         },
         {
             "category": "Kata Ganti Orang",
+            "total": "5 kosakata",
             "list_items": [
                 {
                     "id": 1,
@@ -263,6 +266,7 @@
         },
         {
             "category": "Kata Kerja",
+            "total": "9 kosakata",
             "list_items": [
                 {
                     "id": 1,
@@ -322,6 +326,7 @@
         },
         {
             "category": "Kata Sehari-hari",
+            "total": "18 kosakata",
             "list_items": [
                 {
                     "id": 1,
@@ -435,6 +440,7 @@
         },
         {
             "category": "Kata Sifat",
+            "total": "14 kosakata",
             "list_items": [
                 {
                     "id": 1,
@@ -524,6 +530,7 @@
         },
         {
             "category": "Kata Tanya",
+            "total": "5 kosakata",
             "list_items": [
                 {
                     "id": 1,
