@@ -4,6 +4,8 @@
             "level": 1,
             "Level_name": "Level 1",
             "total": "3 materi kosakata",
+            "img_open": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_1_open.png",
+            "img_locked": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_1_locked.png",
             "content": [
                 {
                     "id": 1,
@@ -74,6 +76,8 @@
             "level": 2,
             "Level_name": "Level 2",
             "total": "3 materi kosakata",
+            "img_open": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_2_open.png",
+            "img_locked": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_2_locked.png",
             "content": [
                 {
                     "id": 1,
@@ -153,6 +157,8 @@
             "level": 3,
             "Level_name": "Level 3",
             "total": "3 materi kosakata",
+            "img_open": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_3_open.png",
+            "img_locked": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_3_locked.png",
             "content": [
                 {
                     "id": 1,
@@ -232,6 +238,8 @@
             "level": 4,
             "Level_name": "Level 4",
             "total": "3 materi kosakata",
+            "img_open": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_4_open.png",
+            "img_locked": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_4_locked.png",
             "content": [
                 {
                     "id": 1,
@@ -311,6 +319,8 @@
             "level": 5,
             "Level_name": "Level 5",
             "total": "3 materi kosakata",
+            "img_open": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_5_open.png",
+            "img_locked": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka_5_locked.png",
             "content": [
                 {
                     "id": 1,
@@ -383,76 +393,6 @@
                     "question": "Peragakan gerakan ini!",
                     "link": "https://storage.googleapis.com/vide-materi-signify/kata-sehari-hari/Terima%20kasih.mp4",
                     "answer": "Terima Kasih"
-                }
-            ]
-        },
-        {
-            "level": 6,
-            "Level_name": "Level 6",
-            "total": "3 materi kosakata",
-            "content": [
-                {
-                    "id": 1,
-                    "levelContent": 6,
-                    "type": "material",
-                    "name": "Aku",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Aku.mp4"
-                },
-                {
-                    "id": 2,
-                    "levelContent": 6,
-                    "type": "material",
-                    "name": "Kamu",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kamu.mp4"
-                },
-                {
-                    "id": 3,
-                    "levelContent": 6,
-                    "type": "material",
-                    "name": "Dia",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Dia.mp4"
-                },
-                {
-                    "id": 4,
-                    "levelContent": 6,
-                    "type": "multiple_choices",
-                    "question": "Isyarat apakah ini?",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kamu.mp4",
-                    "options": ["Aku", "Ayah", "Kamu", "Dia"],
-                    "answer": "Kamu"
-                },
-                {
-                    "id": 5,
-                    "levelContent": 6,
-                    "type": "multiple_choices",
-                    "question": "Isyarat apakah ini?",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Dia.mp4",
-                    "options": ["Kamu", "Dia", "Aku", "Ayah"],
-                    "answer": "Dia"
-                },
-                {
-                    "id": 6,
-                    "levelContent": 6,
-                    "type": "essay",
-                    "question": "Isyarat apakah ini?",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Aku.mp4",
-                    "answer": "Aku"
-                },
-                {
-                    "id": 7,
-                    "levelContent": 6,
-                    "type": "essay",
-                    "question": "Isyarat apakah ini?",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Dia.mp4",
-                    "answer": "Dia"
-                },
-                {
-                    "id": 8,
-                    "levelContent": 6,
-                    "type": "practice",
-                    "question": "Peragakan gerakan ini!",
-                    "link": "https://storage.googleapis.com/vide-materi-signify/kata-ganti-orang/Kamu.mp4",
-                    "answer": "Kamu"
                 }
             ]
         }
