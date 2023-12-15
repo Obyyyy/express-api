@@ -3,6 +3,7 @@
         {
             "category": "Alfabet",
             "total": "26 kosakata",
+            "img": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/alfabet.png",
             "list_items": [
                 {
                     "id": 1,
@@ -165,6 +166,7 @@
         {
             "category": "Angka",
             "total": "10 kosakata",
+            "img": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/angka.png",
             "list_items": [
                 {
                     "id": 1,
@@ -231,6 +233,7 @@
         {
             "category": "Kata Ganti Orang",
             "total": "5 kosakata",
+            "img": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/kata_ganti_orang.png",
             "list_items": [
                 {
                     "id": 1,
@@ -267,6 +270,7 @@
         {
             "category": "Kata Kerja",
             "total": "9 kosakata",
+            "img": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/kata_kerja.png",
             "list_items": [
                 {
                     "id": 1,
@@ -327,6 +331,7 @@
         {
             "category": "Kata Sehari-hari",
             "total": "18 kosakata",
+            "img": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/kata_sehari_hari.png",
             "list_items": [
                 {
                     "id": 1,
@@ -441,6 +446,7 @@
         {
             "category": "Kata Sifat",
             "total": "14 kosakata",
+            "img": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/kata_sifat.png",
             "list_items": [
                 {
                     "id": 1,
@@ -531,6 +537,7 @@
         {
             "category": "Kata Tanya",
             "total": "5 kosakata",
+            "img": "https://storage.googleapis.com/vide-materi-signify/img-android-resource/kata_tanya.png",
             "list_items": [
                 {
                     "id": 1,
