@@ -7,4 +7,6 @@ router.get("/dict", dataController.getDict);
 
 router.get("/quiz", dataController.getQuiz);
 
+router.get("/quiz/:level", dataController.quizLevel);
+
 module.exports = router;

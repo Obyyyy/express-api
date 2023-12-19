@@ -42,3 +42,36 @@ exports.getQuiz = function (req, res) {
         res.json(jsonData);
     });
 };
+
+exports.quizLevel = function (req, res) {
+    const level = req.params.level; // Ambil nilai parameter level dari URL
+
+    // Selanjutnya, lakukan pembacaan data dari file quizess.json sesuai dengan level yang diminta
+    const filePath = path.join(__dirname, "../data/", "quizess.json");
+    fs.readFile(filePath, "utf8", function (err, data) {
+        if (err) {
+            console.error(err);
+            res.status(500).json({ error: "Internal Server Error" });
+            return;
+        }
+
+        let jsonData;
+        try {
+            jsonData = JSON.parse(data);
+
+            // Temukan level yang sesuai di dalam data
+            const selectedLevel = jsonData.quizess.find((q) => q.level == level);
+
+            if (!selectedLevel) {
+                res.status(404).json({ error: "Level not found" });
+                return;
+            }
+
+            res.json(selectedLevel);
+        } catch (parseError) {
+            console.error(parseError);
+            res.status(500).json({ error: "Error parsing JSON" });
+            return;
+        }
+    });
+};
