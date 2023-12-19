@@ -1,0 +1,253 @@
+{
+	"info": {
+		"_postman_id": "f01f7b3e-a4a5-4fa6-85f2-d8827fc9a6f3",
+		"name": "API Signify",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Dictionary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/get/dict",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"get",
+						"dict"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Quiz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/get/quiz",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"get",
+						"quiz"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Quiz per Level",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Muhammad Qalby\",\r\n    \"email\": \"obyy@gmail.com\",\r\n    \"password\": \"obyy1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/register",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// {\r\n//     \"email\": \"risu@gmail.com\",\r\n//     \"password\": \"123456\"\r\n// }\r\n{\r\n    \"email\": \"obyy@gmail.com\",\r\n    \"password\": \"obyy1234\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/login",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User's Higest Level",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"cHApy-KzcxpodsLL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/get/level",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"get",
+						"level"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User Completes a Level",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"cHApy-KzcxpodsLL\",\r\n    \"level\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/post/level",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"post",
+						"level"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"cHApy-KzcxpodsLL\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/get/profile",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"get",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\": \"cHApy-KzcxpodsLL\",\r\n    \"gender\": 0,\r\n    \"bday\": \"2003-02-07\",\r\n    \"phone\": \"081345336291\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api-capstone-405712.dt.r.appspot.com/post/profile",
+					"protocol": "https",
+					"host": [
+						"api-capstone-405712",
+						"dt",
+						"r",
+						"appspot",
+						"com"
+					],
+					"path": [
+						"post",
+						"profile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
