@@ -110,7 +110,12 @@ exports.postCompletedLevel = (req, res) => {
                     return res.status(500).json({ error: true, message: "Internal Server Error" });
                 }
 
-                return res.status(201).json({ error: false, message: "Level Completed" });
+                return res.status(201).json({ 
+                    error: false, 
+                    userId: userId,
+                    level: level,
+                    message: "Level Completed",
+                });
             });
         }
     });
